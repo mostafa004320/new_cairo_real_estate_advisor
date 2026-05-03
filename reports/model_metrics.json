@@ -1,0 +1,78 @@
+{
+  "sale": {
+    "best_model": "random_forest",
+    "rows": 201,
+    "metrics": {
+      "MAE_price": 2379798.6057750084,
+      "RMSE_price": 3369904.250362544,
+      "R2_price": 0.044305424822760786,
+      "R2_price_per_m2": 0.10320033856675148,
+      "n_train": 160,
+      "n_test": 41
+    },
+    "all_metrics": {
+      "random_forest": {
+        "MAE_price": 2379798.6057750084,
+        "RMSE_price": 3369904.250362544,
+        "R2_price": 0.044305424822760786,
+        "R2_price_per_m2": 0.10320033856675148,
+        "n_train": 160,
+        "n_test": 41
+      },
+      "extra_trees": {
+        "MAE_price": 2684017.8071814557,
+        "RMSE_price": 3674009.2272344353,
+        "R2_price": -0.13596377814147664,
+        "R2_price_per_m2": -0.04288200783328566,
+        "n_train": 160,
+        "n_test": 41
+      },
+      "gbr": {
+        "MAE_price": 2402225.831137017,
+        "RMSE_price": 3504291.103613941,
+        "R2_price": -0.03343781815911551,
+        "R2_price_per_m2": 0.06104396981804627,
+        "n_train": 160,
+        "n_test": 41
+      }
+    }
+  },
+  "rent": {
+    "best_model": "gbr",
+    "rows": 326,
+    "metrics": {
+      "MAE_price": 10680.265489063326,
+      "RMSE_price": 16515.62323647981,
+      "R2_price": 0.7403234383824204,
+      "R2_price_per_m2": 0.6738147364195004,
+      "n_train": 260,
+      "n_test": 66
+    },
+    "all_metrics": {
+      "random_forest": {
+        "MAE_price": 11645.17774751718,
+        "RMSE_price": 17688.517163093642,
+        "R2_price": 0.7021307494204576,
+        "R2_price_per_m2": 0.5678716044104348,
+        "n_train": 260,
+        "n_test": 66
+      },
+      "extra_trees": {
+        "MAE_price": 13843.9990049801,
+        "RMSE_price": 18147.764106615356,
+        "R2_price": 0.6864628047472492,
+        "R2_price_per_m2": 0.5442751720762189,
+        "n_train": 260,
+        "n_test": 66
+      },
+      "gbr": {
+        "MAE_price": 10680.265489063326,
+        "RMSE_price": 16515.62323647981,
+        "R2_price": 0.7403234383824204,
+        "R2_price_per_m2": 0.6738147364195004,
+        "n_train": 260,
+        "n_test": 66
+      }
+    }
+  }
+}

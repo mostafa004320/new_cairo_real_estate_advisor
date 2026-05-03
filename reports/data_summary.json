@@ -1,0 +1,25 @@
+{
+  "raw_rows": 768,
+  "selected_rows": 768,
+  "apartments_rows": 552,
+  "sale_clean_rows": 201,
+  "rent_clean_rows": 326,
+  "sale_median_price": 7700000.0,
+  "rent_median_price": 55000.0,
+  "sale_median_price_per_m2": 50387.59689922481,
+  "rent_median_price_per_m2": 339.49152542372883,
+  "districts": {
+    "The 5th Settlement": 366,
+    "South Investors Area": 39,
+    "Unknown": 27,
+    "North Investors Area": 21,
+    "Al Narges": 14,
+    "The 6th Settlement": 13,
+    "Mostakbal City Compounds": 7,
+    "Al Andalus District": 7,
+    "Al Rehab": 6,
+    "Ext North Inves Area": 4,
+    "El Katameya": 3,
+    "Abou El Houl": 3
+  }
+}
